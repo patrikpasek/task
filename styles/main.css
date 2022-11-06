@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   background-color: #333333;
 }
@@ -36,14 +36,14 @@ header .full-size-content {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  min-height: 80vh;
 }
 header .full-size-content .text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  min-height: 80vh;
   width: 50%;
   padding: 9%;
   flex-direction: column;
@@ -71,7 +71,7 @@ header .full-size-content .image {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  min-height: 80vh;
   width: 50%;
 }
 header .full-size-content .image img {
@@ -82,7 +82,7 @@ main {
   background-color: #333333;
 }
 main .full-size-about {
-  height: 100vh;
+  min-height: 100vh;
   padding: 0 7%;
   display: flex;
   flex-direction: row;
@@ -102,7 +102,7 @@ main .full-size-about .full-size-rectengel {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  min-height: 60vh;
   width: 80%;
   justify-content: space-between;
 }
