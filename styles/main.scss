@@ -32,7 +32,7 @@ header {
         }
     }
 
-    .full-size-content {
+    .full-size-content { 
         @include container;
         @include flexbox;
         min-height: 80vh;
@@ -41,10 +41,10 @@ header {
             @include flexbox;
             min-height: 80vh;
             width: 50%;
-            padding: 9%;
+            padding: em(70px);
             flex-direction: column;
             align-items: flex-start;
-            gap: 7%;
+            gap: em(40px);
             color: $fourth-color;
 
             h1 {

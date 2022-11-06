@@ -1,5 +1,35 @@
-@media (max-width: 1000px) {
+@media (max-width: 1800px) {
+    main .full-size-about .full-size-rectengel .rectengel  {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+    
+    header nav {
+        justify-content: center;
+    }
+    
     header .full-size-content {
         flex-direction: column;
+        padding: 0;
     }
+
+    header .full-size-content .text {
+        padding: 10px;
+    }
+
+    header .full-size-content .image img {
+        width: 100%;
+    }
+
+
+    main .full-size-about .full-size-rectengel {
+        flex-direction: column;
+    }
+
+    main .full-size-about .full-size-rectengel .rectengel  {
+        width: 100%;
+    }
+
 }
